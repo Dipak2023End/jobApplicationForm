@@ -8,7 +8,6 @@
    color:linear-gradient(to right, #121313, #5a695f);
     font-size: 30px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin: 200px,110px;
 }
 
 
@@ -24,12 +23,12 @@ body{
 
 .apply_box{
     max-width: 600px;
-    padding: 20px;
+    padding: 10px;
     background-color:#d9d9d9;
-    margin: 0 auto; 
-    margin-top: 50px;
-    box-shadow: 3px 3px 5px rgba(10, 2, 3, 0.1);
-    border-radius: 10px; 
+    margin: 10px auto; 
+    margin-top: 30px;
+    box-shadow: 2px 3px 5px rgba(10, 2, 3, 0.1);
+    border-radius: 30px; 
 }
 
 .title_small{
