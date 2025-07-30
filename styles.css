@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+   color:linear-gradient(to right, #121313, #5a695f);
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 200px,110px;
+}
+
+
+body{
+    background: linear-gradient(to right, #02f7e2, #a5a8a6);
+    
+}
+
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.apply_box{
+    max-width: 600px;
+    padding: 20px;
+    background-color:#d9d9d9;
+    margin: 0 auto; 
+    margin-top: 50px;
+    box-shadow: 3px 3px 5px rgba(10, 2, 3, 0.1);
+    border-radius: 10px; 
+}
+
+.title_small{
+font-size: 30px;
+}
+
+.form_container{
+    margin: 20px;
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    gap: 15px;
+}
+
+.form_control{
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    text-align:center;
+    border-box:1px;
+    border-color:black;
+}
+
+label{
+    font-size: 17px;
+    margin-bottom: 8px;
+ 
+}
+
+option{
+    background-color:#669999;
+    color:#00131a
+}
+input,select,textarea{
+    padding: 6px,8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 15px;
+}
+input:focus{
+    outline-color:#3333ff;
+}
+
+
+
+.button_container{
+    display: flex;
+    justify-content: end;
+    margin-top: 20px;
+}
+button {
+    padding: 12px 30px;
+    background: linear-gradient(to right, #43e97b, #38f9d7);
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    transform: scale(1.05);
+    background: linear-gradient(to right, #11998e, #38ef7d);
+}
+
+.textarea_control{
+    grid-column: 1/span 2;
+}
+.textarea_control textarea{
+    width: 100%;
+}
+
+@media (max-width:460px){
+   .textarea_control{
+    grid-column: 1/span 1;
+} 
+}
+
+option:hover{
+    background-color:#669999;
+    color:#d1e0e0;
+}
+
+.footer{
+    text-wrap: wrap;
+    text-align: center;
+    margin: 10px;
+    button {
+    padding: 8px 15px;
+    background: linear-gradient(to right, #0c6d0c, #528f52);
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    transform: scale(1.05);
+    background: linear-gradient(to right, #11998e, #38ef7d);
+}
+
+}
+
